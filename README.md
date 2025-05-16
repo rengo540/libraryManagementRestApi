@@ -5,6 +5,7 @@ This project is a **Spring Boot-based Library Management System** that allows ad
 ## 🔧 Features
 
 - 🔐 **JWT Authentication & Role-based Access Control**
+- Login and register users 
 - 📘 Book management with full metadata (authors, publishers, categories, edition, etc.)
 - 👥 User and member management with role approval flow
 - 🔄 Book borrowing and return workflow with request/approval by Admin
@@ -30,9 +31,9 @@ This project is a **Spring Boot-based Library Management System** that allows ad
 - **Spring Boot**
   - Spring Data JPA
   - Spring Security (JWT Authentication)
-- **PostgreSQL** (or any relational DB)
+- **PostgreSQL**
 - **Lombok** (for clean code)
-- **ModelMapper** (optional for DTO mapping)
+- **ModelMapper** (for DTO mapping)
 - **Maven**
 
 ---
