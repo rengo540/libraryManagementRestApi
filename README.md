@@ -41,7 +41,7 @@ This project is a **Spring Boot-based Library Management System** that allows ad
 
 - **User**: Application users with one or more roles (Admin, Librarian, Staff, Member)
 - **Member**: Special users approved by Staff to borrow books
-- **Book**: Core entity containing metadata, availability, and borrower relationships
+- **Book**: Core entity containing metadata, availability(Number of copies), and borrower relationships
 - **Author / Publisher / Category**: Book metadata entities
 - **BorrowTransaction**: Tracks book requests, issue date, due date, return date
 - **Category**: Supports hierarchical structure with parent-child relationships
@@ -51,8 +51,6 @@ This project is a **Spring Boot-based Library Management System** that allows ad
 ## 📸 ERD (Entity Relationship Diagram)
 
 ![ERD](./erd.png)
-
-> Replace `./erd.png` with the correct path if your ERD is located elsewhere in the project.
 
 ---
 
